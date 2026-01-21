@@ -23,12 +23,14 @@
             <div class="user-data">
                 <form action="" method="post">
                     <p>Let's do this!</p>
-                    <label for="first-name">FIRST NAME</label><input type="text">
-                    <label for="last-name">LAST NAME</label><input type="text">
-                    <label for="email">EMAIL</label><input type="text">
-                    <label for="phone-number">PHONE NUMBER</label><input type="text">
-                    <label for="password">PASSWORD</label><input type="text">
-                    <label for="confirm-password">CONFIRM PASSWORD</label><input type="text">
+                    <div class="form-inputs">
+                        <div class="form-input"><label for="given-name">FIRST NAME</label><input type="text" name="given-name" autocomplete="given-name"></div>
+                        <div class="form-input"><label for="family-name">LAST NAME</label><input type="text" name="family-name" autocomplete="family-name"></div>
+                        <div class="form-input"><label for="email">EMAIL</label><input type="text" name="email" autocomplete="email"></div>
+                        <div class="form-input"><label for="tel">PHONE NUMBER</label><input type="text" name="tel" autocomplete="tel"></div>
+                        <div class="form-input"><label for="password">PASSWORD</label><input type="text" name="password" autocomplete="current-password"></div>
+                        <div class="form-input"><label for="confirm-password">CONFIRM PASSWORD</label><input type="text" name="confirm-password" autocomplete="current-password"></div>
+                    </div>
                 </form>
             </div>
             <div class="account">
