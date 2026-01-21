@@ -1,4 +1,68 @@
-:root {
+@font-face {
+  font-family: 'NorseBold';
+  src: url('Norse-Bold.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+
+.logo-section {
+    background-image: url('tim-patch-rqsRG26RCEU-unsplash.jpg');
+    background-size: cover;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 200px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 30%);
+    text-align: center;
+    width: 500px;
+}
+
+.logo img {
+    height: 120px;
+}
+
+.logo span {
+    font-family: 'NorseBold', sans-serif;
+    font-size: 80px;
+    color: white;
+}
+
+.photo-credits {
+    margin-top: auto;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 30%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.photo-credits a {
+    color: white;
 }
