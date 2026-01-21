@@ -16,7 +16,7 @@ body {
 }
 
 #container {
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     height: 100vh;
@@ -66,3 +66,25 @@ body {
 .photo-credits a {
     color: white;
 }
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+}
+
+.mission {
+    padding: 150px 130px 50px 50px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mission p:last-child {
+    margin-top: 15px;
+}
+
+.user-data {
+    background-color: white;
+}
+
