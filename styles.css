@@ -74,7 +74,7 @@ body {
 }
 
 .mission {
-    padding: 150px 130px 60px 50px;
+    padding: 150px 130px 60px 40px;
     font-family: sans-serif;
     font-size: 22px;
     font-weight: bold;
@@ -119,4 +119,31 @@ body {
     border: 1px solid lightgray;
     border-radius: 5px;
     margin-right: 50px;
+}
+
+.account {
+    padding: 30px 40px;
+}
+
+.account button {
+    background-color: #DEA977;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px -8px rgba(0, 0, 0, 30%);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 45px;
+    margin-bottom: 30px;
+}
+
+.account p {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.account a {
+    color: #02627D;
+    text-decoration: none;
 }
