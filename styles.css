@@ -116,9 +116,20 @@ body {
     font-size: 18px;
     font-weight: 100;
     padding: 3px;
-    border: 1px solid lightgray;
+    border: 2px solid rgb(238, 236, 236);
     border-radius: 5px;
     margin-right: 50px;
+}
+
+input:focus {
+    border-color: #67BCDB;
+    border-width: 2px;
+    outline: none;
+    box-shadow: 0 8px 12px -8px rgba(0, 0, 0, 30%);
+}
+
+input:invalid {
+    border-color: rgb(185, 0, 0);
 }
 
 .account {
@@ -137,6 +148,14 @@ body {
     margin-bottom: 30px;
 }
 
+.account button:hover {
+    background-color: #ECBB9A;
+}
+
+.account button:active {
+    background-color: #9C6F4B;
+}
+
 .account p {
     font-size: 16px;
     font-family: sans-serif;
@@ -144,6 +163,9 @@ body {
 }
 
 .account a {
-    color: #02627D;
+    color: #2D9AC4;
     text-decoration: none;
 }
+
+
+
